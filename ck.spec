@@ -4,8 +4,8 @@
 %define devname %mklibname %{name} -d
 
 Name:		ck
-Version:	0.6.0
-Release:	2
+Version:	0.7.0
+Release:	1
 Summary:	Library for high performance concurrent programming
 Group:		Development/C
 License:	BSD
@@ -68,10 +68,10 @@ export CFLAGS="%{optflags}"
 	--includedir=%{_includedir}/%{name}	\
 	--mandir=%{_mandir}			\
 	--prefix=%{_prefix}
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 # fix weird mode of the shared library
 chmod 0755 %{buildroot}%{_libdir}/libck.so.*
 
