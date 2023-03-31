@@ -5,7 +5,7 @@
 
 Name:		ck
 Version:	0.7.0
-Release:	1
+Release:	2
 Summary:	Library for high performance concurrent programming
 Group:		Development/C
 License:	BSD
