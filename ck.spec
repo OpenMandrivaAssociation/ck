@@ -9,7 +9,7 @@ Release:	2
 Summary:	Library for high performance concurrent programming
 Group:		Development/C
 License:	BSD
-URL:		http://concurrencykit.org
+URL:		https://concurrencykit.org
 Source:		http://concurrencykit.org/releases/ck-%{version}.tar.gz
 
 BuildRequires: gcc
