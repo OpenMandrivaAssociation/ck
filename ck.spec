@@ -12,6 +12,11 @@ License:	BSD
 URL:		https://concurrencykit.org
 Source:		http://concurrencykit.org/releases/ck-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gcc
 
 %description
